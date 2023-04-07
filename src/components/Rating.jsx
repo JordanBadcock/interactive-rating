@@ -1,15 +1,18 @@
 import React from 'react';
 
-import Card from '../components/Card';
+import Card from './Card';
 
 import './Rating.css';
+
+import starImg from '../media/icon-star.svg'
 
 const Rating = () => {
     return (
         <Card>
             <div className='star_img_container'>
-                <img src='' alt=''/>
+                <img src={starImg} alt=''/>
             </div>
+            <br></br>
             <h2>How did we do?</h2>
             <p className='text'>
                 Please let us know how we did with your support request. All feedback is 
@@ -22,7 +25,7 @@ const Rating = () => {
                 <div className='rating_container'>4</div>
                 <div className='rating_container'>5</div>
             </div>
-            <button className='submit_btn' >Submit</button>
+            <button className='submit_btn'>Submit</button>
         </Card>
     )
 }
