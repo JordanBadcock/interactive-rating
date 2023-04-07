@@ -8,5 +8,4 @@ cd /interactive-rating/
 npm start
 
 Enjoy!
-
 -Jordan
